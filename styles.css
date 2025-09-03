@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:rgb(135, 206, 235) ;
+}
+article :nth-child(1){
+	color:white;
+	background-color:black;
+}
+article :nth-child(2){
+	color:black;
+	
+}
+article :last-child{
+	color:red;
+	
+}
+ul li:nth-child(odd){
+	background-color:white;
+}
+ul li:nth-child(even){
+	background-color:gray;
+}
+li{
+	width:50%;
+	padding:22px;
+}
+ul li:nth-last-child(3) {
+  /* CSS declarations */
+	background-color:pink;
+}
